@@ -1,0 +1,82 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+@import url("/assets/lightbox.css");
+
+.site-title::before {
+	content: '';
+
+    position: relative;
+    top: 10px;
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+
+    background-image: url("/assets/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 40px;
+}
+
+.site-nav .page-link {
+    position: relative;
+    top: 5px;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-heading a {
+    color: #2a7ae2 !important;
+
+    &:visited {
+        color: #1756a9 !important;
+    }
+
+    &:hover {
+        color: #111 !important;
+    }
+}
+
+.footer-col-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.footer-col-wrapper::after {
+    display: none;
+}
+
+.footer-col {
+    float: none;
+
+    width: auto;
+}
+
+.terminal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+
+    padding: 8px;
+
+    background-color: #191B1A;
+    border-radius: 5px;
+}
+
+h2 a {
+    color: inherit !important;
+}
