@@ -18,7 +18,9 @@ If you'd like to follow along, installation is easy:
 cargo install --git https://github.com/BrainiumLLC/cargo-mobile
 ```
 
-Note that cargo-mobile currently only works on macOS! If you shoot us a PR that adds support for Linux or Windows, we'll shower you in heart emoji.
+Note that cargo-mobile currently only works on macOS! If you shoot us a PR that adds support for Linux or Windows, we'll shower you in heart emoji. Feel free to ask us for guidance if you're interested!
+
+Additionally, until Rust 1.49.0 is released, you can't build for iOS unless you're using [either Rust 1.45.2 or a recent nightly](https://github.com/BrainiumLLC/cargo-mobile#status).
 
 To start a new project, you just need to run `cargo mobile init`:
 
@@ -30,7 +32,7 @@ As usual, you can use `cargo run` to run on desktop:
 
 {% include lightbox.html alt="`cargo run` demo" src="/assets/cargo-mobile/desktop.png" %}
 
-More excitingly, it's also easy to run on iOS and Android!
+More excitingly, it's easy to run on iOS and Android!
 
 ## [iOS](#ios)
 
@@ -48,7 +50,7 @@ You can even set breakpoints!
 
 {% include lightbox.html alt="Xcode breakpoints" src="/assets/cargo-mobile/breakpoints.png" %}
 
-If you're not a fan of opening Xcode, you can also run directly from the command line. Be warned that the output might be pretty noisy; we'll improve that later! Also, you can't currently run on Simulator using this method.
+If you're not a fan of opening Xcode, you can also run directly from the command line. Be warned that the output might contain some spurious errors; we're still improving that! Also, you can't currently use Simulator unless you're running from Xcode.
 
 ```shell
 cargo apple run
@@ -94,9 +96,9 @@ cargo android
 
 ## [Going forward](#going-forward)
 
-Be advised that Bevy's mobile support is still [very new](https://bevyengine.org/news/bevy-0-3/), so the Breakout demo doesn't work perfectly yet. They're doing an amazing job nonetheless! I've been following the progress on Bevy's mobile support, and a lot of contributors worked very hard to make that happen.
+Be advised that Bevy's mobile support is still [very new](https://bevyengine.org/news/bevy-0-3/), so the Breakout demo doesn't work perfectly yet. They're doing an amazing job nonetheless! We've been following their progress, and a lot of contributors worked very hard to make it happen.
 
-We'd love to see PRs that add template packs for other engines and frameworks, so that cargo-mobile is convenient to use for anyone and everyone. We'd also love to show you a demo using Brainstorm, our own internal mobile-first game engine, but we're not ready to open source it just yet!
+We'd love to see PRs that add template packs for other engines and frameworks, so that cargo-mobile is convenient for anyone and everyone to use. We'd also love to show you a demo using Brainstorm, our own internal mobile-first game engine, but we're not ready to open source it just yet!
 
 If you have any questions, issues, or ideas, feel free to [open an issue](https://github.com/BrainiumLLC/cargo-mobile/issues)!
 
