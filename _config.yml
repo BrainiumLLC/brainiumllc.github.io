@@ -23,7 +23,7 @@ company: Brainium Studios LLC
 copyright-year: 2020
 email: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dev.brainiumstudios.com" # the base hostname & protocol for your site, e.g. http://example.com
 main-site: http://www.brainiumstudios.com
 twitter_username: BrainiumStudios
 github_username: BrainiumLLC
