@@ -6,8 +6,6 @@ author: Francesca Lovebloom
 author-link: https://github.com/francesca64
 ---
 
-**THIS IS A DRAFT - REMEMBER TO OPTIMIZE ASSETS BEFORE POSTING**
-
 ***The answer to "how do I use Rust on iOS and Android?"***
 
 For nearly 2 years, we've been perfecting a tool called [cargo-mobile]. It's a framework-agnostic tool that generates all the boilerplate of a Rust mobile project, and is packed full of handy commands for building and running on mobile devices.
