@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "cargo-mobile: Rust on mobile made easy!"
-date:   2020-11-23 10:00:00 -0800
+date:   2020-11-24 10:00:00 -0800
 author: Francesca Lovebloom
 author-link: https://github.com/francesca64
 ---
