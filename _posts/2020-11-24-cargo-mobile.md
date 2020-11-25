@@ -18,7 +18,7 @@ cargo install --git https://github.com/BrainiumLLC/cargo-mobile
 
 Note that cargo-mobile currently only works on macOS! If you shoot us a PR that adds support for Linux or Windows, we'll shower you in heart emoji. Feel free to ask us for guidance if you're interested!
 
-Additionally, until Rust 1.49.0 is released, you can't build for iOS unless you're using [either Rust 1.45.2 or a recent nightly](https://github.com/BrainiumLLC/cargo-mobile#status).
+Additionally, until Rust 1.49.0 is released, you can't build for iOS unless you're using [the current beta](https://github.com/BrainiumLLC/cargo-mobile#status).
 
 To start a new project, you just need to run `cargo mobile init`:
 
